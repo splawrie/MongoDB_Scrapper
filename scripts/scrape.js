@@ -1,7 +1,7 @@
 // scrape script
 
 
-//Require request and cheerio, make scrapes possible
+//Require request and cheerio
 var request = require("request");
 var cheerio = require("cheerio");
 
@@ -13,7 +13,7 @@ var scrape = function (cb) {
 
         var articles = [];
 
-        $(".theme-summary").each(function(i. element) {
+        $(".theme-summary").each(function(i, element) {
 
             var head = $(this).children(".story-heading").text().trim();
             var sum = $(this).children(".summary").text().trim();

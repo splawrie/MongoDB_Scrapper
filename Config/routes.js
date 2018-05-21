@@ -1,10 +1,10 @@
 // Server routes
 
 
-//Bring in the scrape function from the scripts directory
+
 var scrape = require("../scripts/scrape");
 
-//Bring headlines and notes from the controller
+
 var headlinesController = require("../controllers/headlines");
 var notesController = require("../controllers/notes");
 

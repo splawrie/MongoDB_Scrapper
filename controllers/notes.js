@@ -1,4 +1,4 @@
-//Controller for our notes
+//Notes Controller
 
 
 var Note = require("../models/Note");

@@ -1,8 +1,8 @@
-//Bring in scrape script and makeDate scripts
+
 var scrape = require("../scripts/scrape");
 var makeDate = require("../scripts/date");
 
-//Bring in the Headline and Note mongoose models
+
 var Headline = require("../models/Headline");
 
 model.exports = {
