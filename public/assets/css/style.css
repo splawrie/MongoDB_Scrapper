@@ -5,7 +5,6 @@ html {
 
 body {
     margin-bottom: 80px;
-    background-image: url("paper.jpg");
 }
 
 .footer {
@@ -26,7 +25,7 @@ body {
     height: 500px;
     font-family: "Geo";
     padding: 0;
-    box-shadow: 10px 5px 20px 2px lightslategrey;
+    box-shadow: 10px 5px 20px 2px lightgrey;
 }
 
 .jumbotron .overlay {
@@ -42,7 +41,6 @@ body {
 
 .jumbotron .background-image {
     height: 100%;
-    background-image: url("../image/newspaper.jpg");
     background-size: cover;
 }
 
@@ -69,7 +67,7 @@ body {
 
 .panel {
     border-radius: 0;
-    box-shadow: 3px 3px 20x lightslategrey;
+    box-shadow: 3px 3px 20x lightgrey;
 }
 
 .panel.panel-default .panel-heading {
@@ -109,7 +107,7 @@ body {
     padding: 5px;
 }
 
-.navebar-inverse .navbar-nav>li>a.scrape-new {
+.navbar-inverse .navbar-nav>li>a.scrape-new {
     font-weight:800;
     color:white;
     padding: 10px;
