@@ -14,8 +14,8 @@ var app = express();
 var router = express.Router();
 
 //Require routes file 
-require("./config/routes")(router);
-console.log("checking error");
+require("./Config/routes")(router);
+console.log("checking errors");
 
 //Designate the public folder as a static directory
 app.use(express.static(__dirname + "/public"));
